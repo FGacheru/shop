@@ -5,7 +5,7 @@ def index(request):
     context = {}
     return render(request, 'all-store/index.html', context)
 
-def CommonPasswordValidator(request):
+def cart(request):
     context = {}
     return render(request, 'all-store/cart.html', context)
 
